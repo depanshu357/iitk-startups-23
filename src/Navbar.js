@@ -1,10 +1,11 @@
 import React from 'react'
+import "./app.css";
 
 const Navbar = () => {
   return (
-    <div style={{position:'fixed',top:"0",height:"55px",backgroundColor:"black",width:"100vw",overflow:"hidden"}}>
+    <div className='nav-glass' style={{position:'fixed',top:"0",height:"55px",width:"100vw",overflow:"hidden",zIndex:"2"}}>
       <div style={{height:"100%",display:"flex",justifyContent:"center",alignContent:"center",width:"fit-content"}}>
-        <img src="./images/logo.png" alt="" srcset="" height="50px"/>
+        <img src="./iitk-startups-23/images/logo.png" alt="E-Cell" srcset="" height="40px" />
       </div>
     </div>
   )
