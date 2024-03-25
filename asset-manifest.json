@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/iitk-startups-23/static/css/main.3c9ebd00.css",
-    "main.js": "/iitk-startups-23/static/js/main.c71d6b65.js",
+    "main.css": "/iitk-startups-23/static/css/main.a083cf50.css",
+    "main.js": "/iitk-startups-23/static/js/main.525c9932.js",
     "static/js/208.7589e9a5.chunk.js": "/iitk-startups-23/static/js/208.7589e9a5.chunk.js",
     "static/js/293.7972bb0a.chunk.js": "/iitk-startups-23/static/js/293.7972bb0a.chunk.js",
     "static/js/917.e2da7b7d.chunk.js": "/iitk-startups-23/static/js/917.e2da7b7d.chunk.js",
@@ -11,8 +11,8 @@
     "static/js/160.65e1268f.chunk.js": "/iitk-startups-23/static/js/160.65e1268f.chunk.js",
     "static/js/23.8b6db402.chunk.js": "/iitk-startups-23/static/js/23.8b6db402.chunk.js",
     "index.html": "/iitk-startups-23/index.html",
-    "main.3c9ebd00.css.map": "/iitk-startups-23/static/css/main.3c9ebd00.css.map",
-    "main.c71d6b65.js.map": "/iitk-startups-23/static/js/main.c71d6b65.js.map",
+    "main.a083cf50.css.map": "/iitk-startups-23/static/css/main.a083cf50.css.map",
+    "main.525c9932.js.map": "/iitk-startups-23/static/js/main.525c9932.js.map",
     "208.7589e9a5.chunk.js.map": "/iitk-startups-23/static/js/208.7589e9a5.chunk.js.map",
     "293.7972bb0a.chunk.js.map": "/iitk-startups-23/static/js/293.7972bb0a.chunk.js.map",
     "917.e2da7b7d.chunk.js.map": "/iitk-startups-23/static/js/917.e2da7b7d.chunk.js.map",
@@ -23,7 +23,7 @@
     "23.8b6db402.chunk.js.map": "/iitk-startups-23/static/js/23.8b6db402.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c9ebd00.css",
-    "static/js/main.c71d6b65.js"
+    "static/css/main.a083cf50.css",
+    "static/js/main.525c9932.js"
   ]
 }
