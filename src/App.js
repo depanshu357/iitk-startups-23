@@ -5,10 +5,14 @@ import "./app.css"
 function App() {
   return (
     <>
+    <div style={{position:"relative"}}>
+
     <Navbar />
     
-    <div style={{overflow:"hidden" }}>
+        <div className="ball2"></div>
+    <div style={{overflow:"hidden",position:"relative",height:"100vh" }}>
         <Spline style={{position:"absolute"}} scene="https://prod.spline.design/GzVVx11nnOZkogxx/scene.splinecode" />
+        <div className="ball1"></div>
         <div
           style={{
             width: "100vw",
@@ -23,19 +27,20 @@ function App() {
           }}
         >
           <span className="iitkHeading" >
-            IIT Kanpur's {" "}
+            IIT Kanpur's{" "}
           </span>
+          <span style={{display:"block",width:"1vw",height:"10px"}}></span>
           <span
             className="startupsHeading"
           >
-            Startups
+            {" "}Startups
           </span>
         </div>
         <div
           style={{
             // fontWeight: "400",
             fontFamily: "Poppins",
-            fontSize: "65px",
+            fontSize: "calc(34px + 4.3 * ((100vw - 320px) / 435))",
             display: "flex",
             justifyContent: "center",
           }}
@@ -56,8 +61,9 @@ function App() {
           style={{
             textAlign: "center",
             fontWeight: "500",
-            fontSize: "24px",
+            fontSize: "calc(14px + 4.3 * ((100vw - 320px) /535))",
             padding: "25px",
+            color:"wheat",
           }}
         >
           AT IIT KANPUR, INNOVATION MEETS AMBITION, CREATING AN ENTREPRENEURIAL
@@ -70,12 +76,14 @@ function App() {
           <img src="./images/arrow.png" width="30px" />
         </div>
       </div>
-    <div style={{maxWidth:"100vw"}}>
-      <Spline scene="https://prod.spline.design/v1cImhFNdRf5HDZg/scene.splinecode" />
+    <div style={{maxWidth:"100vw",position:"relative",height:"100vh"}}>
+      <Spline style={{position:"absolute"}} scene="https://prod.spline.design/v1cImhFNdRf5HDZg/scene.splinecode" />
     </div>
     <div>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, eaque velit quibusdam culpa debitis ducimus recusandae dolore sed cum praesentium totam nihil ex reiciendis pariatur facilis, obcaecati rem temporibus. Mollitia maiores aut similique possimus!
     </div>
+    </div>
+
     </>
   );
 }
