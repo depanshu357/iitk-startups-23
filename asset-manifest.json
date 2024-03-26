@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/iitk-startups-23/static/css/main.1f3023dd.css",
-    "main.js": "/iitk-startups-23/static/js/main.ef06c1ee.js",
+    "main.js": "/iitk-startups-23/static/js/main.d4790e64.js",
     "static/js/208.7589e9a5.chunk.js": "/iitk-startups-23/static/js/208.7589e9a5.chunk.js",
     "static/js/293.7972bb0a.chunk.js": "/iitk-startups-23/static/js/293.7972bb0a.chunk.js",
     "static/js/917.e2da7b7d.chunk.js": "/iitk-startups-23/static/js/917.e2da7b7d.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/23.8b6db402.chunk.js": "/iitk-startups-23/static/js/23.8b6db402.chunk.js",
     "index.html": "/iitk-startups-23/index.html",
     "main.1f3023dd.css.map": "/iitk-startups-23/static/css/main.1f3023dd.css.map",
-    "main.ef06c1ee.js.map": "/iitk-startups-23/static/js/main.ef06c1ee.js.map",
+    "main.d4790e64.js.map": "/iitk-startups-23/static/js/main.d4790e64.js.map",
     "208.7589e9a5.chunk.js.map": "/iitk-startups-23/static/js/208.7589e9a5.chunk.js.map",
     "293.7972bb0a.chunk.js.map": "/iitk-startups-23/static/js/293.7972bb0a.chunk.js.map",
     "917.e2da7b7d.chunk.js.map": "/iitk-startups-23/static/js/917.e2da7b7d.chunk.js.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.1f3023dd.css",
-    "static/js/main.ef06c1ee.js"
+    "static/js/main.d4790e64.js"
   ]
 }
