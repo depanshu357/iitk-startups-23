@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import "./app.css";
 import Grid from "./Grid";
 import data from "./data.json";
+import ParticlesComponent from "./ParticlesComponent";
 import { useState } from "react";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <div style={{ position: "relative",overflow:"hidden" }}>
         <Navbar />
         <Grid />
+        <ParticlesComponent />
         <div className="ball2"></div>
         <div
           style={{ overflow: "hidden", position: "relative", height: "100vh",display:"flex",flexDirection:"column",justifyContent:"space-evenly",alignItems:"center" }}
