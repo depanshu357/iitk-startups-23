@@ -179,3 +179,9 @@
         padding-top: 90px;
     }
 }
+.filter-box{
+    z-index: 3;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}

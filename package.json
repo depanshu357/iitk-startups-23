@@ -4,6 +4,9 @@
   "homepage": "https://depanshu357.github.io/iitk-startups-23",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.14",
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^1.0.79",
     "@testing-library/jest-dom": "^5.17.0",
