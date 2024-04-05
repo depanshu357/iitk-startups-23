@@ -2,7 +2,7 @@ import Spline from "@splinetool/react-spline";
 import Navbar from "./Navbar";
 import "./app.css";
 import Grid from "./Grid";
-import data from "./data.json";
+import data from "./data2.json";
 import ParticlesComponent from "./ParticlesComponent";
 import { useEffect, useState } from "react";
 import Paper from "@mui/material/Paper";
@@ -51,10 +51,10 @@ function App() {
   const handleData = () => { 
 
     setResult(data.filter((item) => 
-      ((unicornStatus === "Any" || unicornStatus === "") ? 1 : item.Unicorn_Status.toLowerCase() === item.Unicorn_Status.toLowerCase())  &&
+      ((unicornStatus === "Any" || unicornStatus === "") ? 1 : item.UnicornStatus.toLowerCase() === unicornStatus.toLowerCase())  &&
       ((location === "Any" || location === "") ? 1 : item.Location.toLowerCase() === location.toLowerCase()) &&
-      ((companyStage === "Any" || companyStage === "") ? 1 : item.Company_Stage.toLowerCase() === companyStage.toLowerCase())
-    ))
+      ((companyStage === "Any" || companyStage === "") ? 1 : item.CompanyStage.toLowerCase() === companyStage.toLowerCase())
+    ).slice(0,50))
 
     // if ((unicornStatus === "Any" || unicornStatus==="") && (location === "Any" || location=== "") && (companyStage==="Any" || companyStage==="")) {
     //   setResult(data.slice(0, 50));
@@ -79,6 +79,10 @@ function App() {
   }
   const handleChangeCompanyStage = (event) => {
     setCompanyStage(event.target.value);
+  }
+
+  function increaseByOne(index){
+    return index + 1;
   }
 
   return (
@@ -213,7 +217,7 @@ function App() {
             }}
           >
             <FormControl size="100">
-              <InputLabel id="demo-simple-select-label">
+              <InputLabel id="input1">
                 Unicorn Status
               </InputLabel>
               <Select
@@ -231,7 +235,7 @@ function App() {
               </Select>
             </FormControl>
             <FormControl size="100">
-              <InputLabel id="demo-simple-select-label">
+              <InputLabel id="input2">
                 Location
               </InputLabel>
               <Select
@@ -249,7 +253,7 @@ function App() {
               </Select>
             </FormControl>
             <FormControl size="100">
-              <InputLabel id="demo-simple-select-label">
+              <InputLabel id="input3">
                 Company Stage
               </InputLabel>
               <Select
@@ -301,13 +305,13 @@ function App() {
                     "rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset",
                   zIndex: "4",
                 }}
-                href={item.Website_Link}
+                href={item.WebsiteLink}
                 target="_blank"
                 rel="noreferrer"
               >
                 <div style={{ width: "200px", height: "200px" }}>
                   <img
-                    src={item.Image_Link}
+                    src={"https://www.ecelliitk.org/Images/IITKStartups/image_"+increaseByOne(item.Id)+".jpg"}
                     alt=""
                     srcset=""
                     // height="200px"
@@ -320,7 +324,7 @@ function App() {
                     {item.Name}
                   </div>
                   <div style={{ fontWeight: "400", fontSize: "15px" }}>
-                    {item.Short_Description}
+                    {item.ShortDescription}
                   </div>
                 </div>
               </a>
